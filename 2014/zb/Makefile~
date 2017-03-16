@@ -1,0 +1,3 @@
+all: messy.cpp grader.cpp messy.h
+	g++ -O2 -std=c++11 -static -o messy grader.cpp messy.cpp -Wall -Wextra -Wconversion -Wshadow
+
