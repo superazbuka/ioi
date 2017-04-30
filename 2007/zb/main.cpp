@@ -120,7 +120,7 @@ int main()
 		{
 			if (g[i][j] != NULL and g[i][j]->my_part == (index)-1)
 			{
-				st.push_back(find(pts, g, i, j, ng.size()));
+				st.push_back(find(pts, g, i, j, (index)ng.size()));
 				ng.push_back({});
 			}
 		}
